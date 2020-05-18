@@ -9,5 +9,89 @@
 </head>
 <body>
     <!--Landing page-->
+    <header>   	
+    	<div class = "logo">
+    		<h2>Talaa Zina</h2>
+    		<div class = "message">
+    			<p>Hi,
+                   I’m Zina Talaa, a software engineer and web developer living in ALGERIA, looking for my next Front-end position. <a href="">Hire me </a>
+                </p>
+    		</div>		
+    	</div>
+    	<nav>
+	    	<label for="menu_mobile" class= "menu_mobile">&#9776</label>
+	    	<input type="checkbox" id="menu_mobile" role="button">
+	    	<ul class = "menu">
+	    		<li><a href="" class = "active">Home</a></li>
+	    		<li><a href="">About</a></li>
+	    		<li><a href="">Work</a></li>
+	    		<li><a href="#myModal" id= "contact" >Contact</a></li>
+	    	</ul>
+	    	
+	    </nav>
+    </header>
+    
+    
+    <!-- Modal content -->
+   <aside id="myModal" class="modal" aria-hidden = "true" role= "dialog" >
+
+  		<div class="modal-content">
+    		<span class="close">&times;</span>
+    		<h2>Contact Me..</h2>
+    		<!-- Form container -->
+    		
+    			<form>
+    				<input type="text" name="username" placeholder="Your Username">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" name="send" value= "Send message">
+    			</form>
+    		
+    		<!-- Form container -->
+    	</div>
+
+	</aside>
+  <!-- Modal content -->	
+   <section class= "works">
+   	 
+   	 <article id = "1" class = " project project1">
+   	 	 <div class= "screen_shot">
+   	 		<img src="battleship.png" alt= "Battleship screenshoot" >
+   	 	 </div>
+     	 <div class= "description">
+     		<p>An online Battleship app that simulates the function of the original Battleship board game, allowing users to play against a computer until your opponent's ships are all sunk., 
+			</p>
+     	 </div>
+   	 </article>
+
+   	 <article id = "2" class = " project project2">
+   	 	 <div class= "screen_shot">
+   	 		<img src="bookstore.png" alt= "bookstore screenshoot" >
+   	 	 </div>
+     	 <div class= "description">
+     		<p>An online Battleship app that simulates the function of the original Battleship board game, allowing users to play against a computer until your opponent's ships are all sunk., 
+			</p>
+     	 </div>
+   	 </article>
+   	 
+   </section>
+   <div class = "arrow">
+   	 	<div class= "left" >
+   	 		<i style='font-size:24px' class='fas'>&#xf053;</i>
+   	 	</div>
+     	<div class= "right" onclick= "changeProject()">
+     		<i style='font-size:24px' class='fas'>&#xf054;</i>
+     	</div>
+   	</div>
+      
+   <footer>
+   	   <div class = "brand">
+   	   	   <i style='font-size:24px' class='fab'>&#xf09b;</i>
+	   	   <i style='font-size:24px' class='fab'>&#xf08c;</i>
+	   	   <i style='font-size:24px' class='fab'>&#xf1cb;</i>
+	       <i style='font-size:24px' class='fab'>&#xf16d;</i>
+	       <i style="font-size:24px" class="fa">&#xf099;</i>
+   	   </div>
+   </footer>
     <script src= "js/app.js"></script>
 </html>
