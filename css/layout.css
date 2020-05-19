@@ -125,3 +125,68 @@
   text-decoration: none;
   cursor: pointer;
 }  
+/* ==|====================
+   Layout/Works
+   ======================= */ 
+
+.l-works {
+	width: 80%;
+    height: auto;
+    overflow: hidden;
+    position : relative;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 auto;
+
+   /* background-color: #DDD;*/
+}   
+/* ==|====================
+   Layout/Project
+   ======================= */ 
+
+.l-project {
+   /*position: absolute;*/
+   width: 100%;
+   display: flex;
+ 
+
+   margin-bottom:  1em;
+
+   background-color: #FFF;
+   
+}
+/* ==|====================
+   Layout/Screenshot
+   ======================= */ 
+
+.l-screen_shot {
+	width: 44%;
+	height: auto;
+	/*background-color: #4A463B;*/
+    background:  
+    	linear-gradient(
+     	rgba(0, 200, 200, 0.45), 
+      	#4CAF50),
+    	url("https://images.unsplash.com/photo-1464639351491-a172c2aa2911?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-right: 1%;
+}
+
+/* ==|====================
+   Layout/Description
+   ======================= */ 
+
+.l-description {
+	width:55% ;
+	height: auto;
+	background-color: #DDD;
+	background:  
+    	linear-gradient(
+     	rgba(0, 200, 200, 0.45), 
+      	#4CAF50),
+    	url("https://images.unsplash.com/photo-1464639351491-a172c2aa2911?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}   

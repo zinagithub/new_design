@@ -16,11 +16,21 @@ h2 {
     
     color: white;
 } 
+p {
+  line-height: 1.5em;
+  word-spacing: 5px;
+  /*color: #4A463B;*/
+  color: #242322;
+  font-size: 1.5em;	
+}
 .l-message p {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.5em;
-  line-height: 1.5em;
-  word-spacing: 5px;	
+  	
+}
+.l-description p {
+	font-family: 'Satisfy';
+	padding : 15px;
 }
 /*===================*/
 .l-nav input[type=checkbox]{
@@ -46,3 +56,12 @@ h2 {
 	border-radius: 50% 10%;
 }  
 /*===================*/
+img {
+	width: 455px;
+	height: 300px;
+
+    border-radius: 15px;
+
+	padding: 10px;
+}
+
