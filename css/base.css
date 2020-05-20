@@ -21,7 +21,7 @@ p {
   word-spacing: 5px;
   /*color: #4A463B;*/
   color: #242322;
-  font-size: 1.5em;	
+  font-size: 1.3em;	
 }
 .l-message p {
   font-family: 'Roboto Condensed', sans-serif;
@@ -29,7 +29,7 @@ p {
   	
 }
 .l-description p {
-	font-family: 'Satisfy';
+	font-family: sans-serif;
 	padding : 15px;
 }
 /*===================*/
@@ -65,3 +65,9 @@ img {
 	padding: 10px;
 }
 
+i {
+	font-size:24px;
+}
+.brand i {
+	margin-top: 20px;
+}
