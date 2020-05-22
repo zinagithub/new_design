@@ -1,0 +1,11 @@
+.background {
+	background:  
+    	linear-gradient(
+     	rgba(0, 200, 200, 0.45), 
+      	#4CAF50
+    	),
+    	url("https://images.unsplash.com/photo-1464639351491-a172c2aa2911?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
+    	background-repeat: no-repeat;
+    	background-size: cover; 
+
+}
