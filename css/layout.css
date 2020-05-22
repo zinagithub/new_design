@@ -1,5 +1,6 @@
 /* ==|====================
    Layout/Header
+
    ======================= */
 
 .l-header {
@@ -11,14 +12,6 @@
     top : -50px;
 
     border-radius: 50% / 10%;
-
-    /*background:  
-    	linear-gradient(
-     	rgba(0, 200, 200, 0.45), 
-      	#4CAF50),
-    	url("https://images.unsplash.com/photo-1464639351491-a172c2aa2911?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .l-header:before {
@@ -54,10 +47,7 @@
 
     text-align: justify;
 }
-.l-message p {	
-    padding: 20px;
-    margin: -120px auto;
-}
+
 /* ==|====================
    Layout/Navigation
    ======================= */
@@ -102,15 +92,13 @@
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 10% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  max-width: 300px; /* Could be more or less, depending on screen size */
+  max-width: 350px; /* Could be more or less, depending on screen size */
   min-height: 350px
 }
-.modal-content h2 {
-	text-align : center;
-}
+
 /* The Close Button */
 .close {
   color: #aaa;
@@ -118,13 +106,30 @@
   font-size: 28px;
   font-weight: bold;
 }
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}  
+/* ==|====================
+   Layout/Form
+   ======================= */ 
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	margin-top : 0px;
+}
+form input {
+	padding: 15px;
+}
+form input, form textarea {
+	margin-bottom: 10px;
+}
+form textarea {
+	padding: 30px
+}
+form input[type=submit] {
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+	/*background-color: #1dd1a1;*/
+} 
 /* ==|====================
    Layout/Works
    ======================= */ 
@@ -162,14 +167,6 @@
 	width: 45%;
 	height: auto;
 
-   /* background:  
-    	linear-gradient(
-     	rgba(0, 200, 200, 0.45), 
-      	#4CAF50),
-    	url("https://images.unsplash.com/photo-1464639351491-a172c2aa2911?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
-    background-repeat: no-repeat;
-    background-size: cover;*/
-
 	margin-right: 1%;
 }
 
@@ -196,15 +193,6 @@
 	height:60px;
     width: 100%;
 
-    /*background:  
-    	linear-gradient(
-     	rgba(0, 200, 200, 0.45), 
-      	#4CAF50
-    	),
-    	url("https://images.unsplash.com/photo-1464639351491-a172c2aa2911?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
-    	background-repeat: no-repeat;
-    	background-size: cover; */
-
     overflow: hidden;	
 	
 	border-top-left-radius: 50%;
@@ -220,3 +208,5 @@
 	justify-content: space-around;
 	margin: 25px auto;
 }
+
+

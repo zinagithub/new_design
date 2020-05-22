@@ -5,7 +5,7 @@ html, body, form { margin: 0; padding: 0; }
    4-text rules*/
 h2 {
 	display: inline-block;
-    float: left;
+    
     width: 50%;
 
     margin-left: 1em;
@@ -23,23 +23,14 @@ p {
   color: #242322;
   font-size: 1.3em;	
 }
-.background {
-	background:  
-    	linear-gradient(
-     	rgba(0, 200, 200, 0.45), 
-      	#4CAF50
-    	),
-    	url("https://images.unsplash.com/photo-1464639351491-a172c2aa2911?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
-    	background-repeat: no-repeat;
-    	background-size: cover; 
-
-}
 /*===================*/
 img {
-	width: 455px;
-	height: 300px;
+	max-width: 96%;
+	max-height: 96%;
 
     border-radius: 15px;
+
+    display: block;
 
 	padding: 10px;
 }
