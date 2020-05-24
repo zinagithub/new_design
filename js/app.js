@@ -1,4 +1,4 @@
-var popWin = document.querySelector("#myModal");
+var popWin = document.querySelector("#formModal");
 const openModal = function (){
 	
 	popWin.style.top = 0;
