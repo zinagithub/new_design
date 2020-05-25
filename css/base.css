@@ -1,3 +1,10 @@
+/*ABOUT SMACSS
+ Stand for Scalable and Modular Architecture for CSS is an approach to web development written by, Jonathan Snook.
+*/ 
+
+/*
+  This file contains the rules that define the default elements styling for all occurrences on the page.
+*/
 html, body, form { margin: 0; padding: 0;}
 /* 1-box Rules 
    2-border rules
@@ -24,33 +31,24 @@ i {
 }
 /*===================*/
 img {
-  display: block;
-	max-width: 96%;
-	max-height: 96%;
-  padding: 10px;
-  margin : 0 auto;
+
+	width: 98%;
+	height: 97%;
+  padding: 1%;
 
   border-radius: 15px;   
 }
-@media screen and (max-width: 768px) {
-  img {
-     width: 98%;
-     
-  }
-}
-@media screen and (max-width: 320px) {
-  img {
-     width: 92%;
-  }
-}
-@media screen and (max-width: 375px) {
-  img {
-     width: 93%;
-  }
-}
-@media screen and (max-width: 425px) {
-  img {
-     width: 94%;
-  }
-}
+a {
+  padding: 8px 20px;
+  border: none;
 
+  text-decoration: none;
+  color: #FFF;
+  font-family: 'Satisfy', cursive;
+
+  transition: border 0.5s;
+}
+ a:hover {
+  border : 2px solid yellow;
+  border-radius: 20px;
+}

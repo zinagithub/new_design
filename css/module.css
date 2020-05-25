@@ -6,8 +6,8 @@
   font-size: 1.5em;
 }
 .l-description p {
-  padding : 15px;
-
+  padding : 25px;
+  margin-bottom: 0; 
   font-family: sans-serif; 
 }
 
@@ -17,21 +17,7 @@
 
   font-family: 'Roboto Condensed', sans-serif;  
 }
-.l-menu li a {
-  padding: 15px 20px;
-  border: none;
-  
-  color: #FFF;
-  text-decoration: none;
-
-  transition: border 0.5s;
-}
-.l-menu li a:hover {
-  border : 2px solid yellow;
-  border-radius: 20px;
-}
-
-/*===================*/
+/*===================*/ 
 .l-nav input[type=checkbox]{
   display: none;
 }
@@ -58,4 +44,22 @@ nav input[type=checkbox]:checked~.l-menu{
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+.buttonLay {
+  width: 90%;
+
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: flex-start;
+}
+.buttonLay a {
+  width: 100px;
+  height: auto;
+  color: black;
+  border-radius: 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 1em;
+  vertical-align: middle;
 }
