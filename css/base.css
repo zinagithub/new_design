@@ -1,40 +1,56 @@
-html, body, form { margin: 0; padding: 0; }
+html, body, form { margin: 0; padding: 0;}
 /* 1-box Rules 
    2-border rules
    3-background rules
    4-text rules*/
 h2 {
-	display: inline-block;
-    
-    width: 50%;
+	display: inline-block;  
+  width: 50%;
 
-    margin-left: 1.5em;
+  margin-left: 1.5em;
 
-	  font-family: 'Satisfy', cursive;
-    font-size: 2.5em;
-    /*text-align: center;*/
-    
-    color: white;
+	font-family: 'Satisfy', cursive;
+  font-size: 2.5em;
+  color: white;
 } 
 p {
   line-height: 1.5em;
   word-spacing: 5px;
-  /*color: #4A463B;*/
   color: #242322;
   font-size: 1.3em;	
 }
+i {
+  font-size:24px;
+}
 /*===================*/
 img {
+  display: block;
 	max-width: 96%;
 	max-height: 96%;
+  padding: 10px;
+  margin : 0 auto;
 
-    border-radius: 15px;
-
-    display: block;
-
-	padding: 10px;
+  border-radius: 15px;   
+}
+@media screen and (max-width: 768px) {
+  img {
+     width: 98%;
+     
+  }
+}
+@media screen and (max-width: 320px) {
+  img {
+     width: 92%;
+  }
+}
+@media screen and (max-width: 375px) {
+  img {
+     width: 93%;
+  }
+}
+@media screen and (max-width: 425px) {
+  img {
+     width: 94%;
+  }
 }
 
-i {
-	font-size:24px;
-}

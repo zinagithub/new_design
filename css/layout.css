@@ -208,15 +208,17 @@ form input[type=submit] {
 .l-works {
 	width: 80%;
     height: auto;
-    overflow: hidden;
+    /*overflow: hidden;
     position : relative;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 
     margin: 0 auto;
 
 }
-@media screen and (max-width: 768px) {}   
+@media screen and (max-width: 768px) {
+
+}   
 /* ==|====================
    Layout/Project
    ======================= */ 
@@ -231,7 +233,11 @@ form input[type=submit] {
    background-color: #FFF;
    
 }
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  .l-project {
+  	flex-wrap: wrap;
+  }
+}
 /* ==|====================
    Layout/Screenshot
    ======================= */ 
@@ -242,7 +248,12 @@ form input[type=submit] {
 
 	margin-right: 1%;
 }
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+	.l-screen_shot {
+		width: 100%;
+		margin:0;
+	}
+}
 /* ==|====================
    Layout/Description
    ======================= */ 
@@ -261,7 +272,16 @@ form input[type=submit] {
 
     border-radius: 5px 10%;
 }   
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+	.l-description {
+		width: 100%;
+		border-radius: 0;
+	}
+	.l-description p {
+		font-size: 15px;
+		text-align: justify;
+	}
+}
 .l-footer { 
 	height:60px;
     width: 100%;
