@@ -1,32 +1,116 @@
-.l-message p {
-  padding: 20px;
-  margin: -120px auto;
+/* ==|====================
+   Module/Menu
+   ======================= */
+.m-menu {
+  clear : both;
+  width : 70%;
+  display: flex;
+  margin : 0 auto;
+  position: relative;
+  top : 250px;
 
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.5em;
-}
-.l-description p {
-  padding : 25px;
-  margin-bottom: 0; 
-  font-family: sans-serif; 
-}
-
-/*===================*/
-.l-menu li {
+  justify-content: space-around;
+} 
+.m-menu li {
   list-style-type: none;
 
   font-family: 'Roboto Condensed', sans-serif;  
 }
+@media screen and (max-width: 970px) {
+  .m-menu {
+    width: 50%;
+      height: auto;
+      
+      flex-direction: column;
+      justify-content: start;
+      margin: 160px auto;
+      position: absolute;
+      
+      right: 50px;
+  }
+  .m-menu li {
+    text-align: right;
+    margin-right:  10px;
+    
+    padding: 5px!important;
+  }
+  .m-menu li a {
+    padding: 0!important;
+  }
+  .m-menu li a:hover {
+    color : blue!important;
+  }
+}
+
+/* ==|====================
+   Module/Screenshot
+   ======================= */ 
+
+.m-screen_shot {
+  width: 45%;
+}
+@media screen and (max-width: 970px) {
+  .m-screen_shot {
+    width: 100%;
+    margin:0;
+  }
+}
+/* ==|====================
+   Module/Description
+   ======================= */ 
+
+.m-description {
+  width:55% ;
+  height: auto;
+  padding-bottom: 10px;
+  background-color: #DDD;
+  background:  
+      linear-gradient(
+      #DDD, 
+        #EEE),
+      url("https://images.unsplash.com/photo-1464639351491-a172c2aa2911?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: justify;
+} 
+.m-description p {
+  padding : 25px;
+  padding-top: 10px;
+  margin-bottom: 0; 
+  font-family: sans-serif; 
+}  
+@media screen and (max-width: 970px) {
+  .m-description {
+    width: 100%;
+    border-radius: 0;
+  }
+  .m-description p {
+    font-size: 15px;
+    
+  }
+}
+
+
+
 /*===================*/ 
-.l-nav input[type=checkbox]{
-  display: none;
+/* Modal Content/Box */
+/*===================*/
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 350px; /* Could be more or less, depending on screen size */
+  min-height: 350px
 }
-.l-nav label {
-  display: none;
-}
-nav input[type=checkbox]:checked~.l-menu{
-  display: flex;
-  top: -100px;
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }  
 .modal-content h2 {
   width: 80%;
