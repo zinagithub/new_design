@@ -19,15 +19,16 @@
 }
 @media screen and (max-width: 970px) {
   .m-menu {
-    width: 50%;
-      height: auto;
-      
-      flex-direction: column;
-      justify-content: start;
-      margin: 160px auto;
-      position: absolute;
-      
-      right: 50px;
+    width: 120px;
+    height: 200pxauto;
+    
+    flex-direction: column;
+    justify-content: start;
+    margin: 155px auto;
+    position: absolute;
+    
+    background-color: rgb(0, 119, 255);
+    right: 50px;
   }
   .m-menu li {
     text-align: right;
@@ -36,7 +37,8 @@
     padding: 5px!important;
   }
   .m-menu li a {
-    padding: 0!important;
+    padding: 5px!important;
+    font-size: 15px;
   }
   .m-menu li a:hover {
     color : blue!important;
