@@ -1,9 +1,10 @@
 ## new_design
-
-> In this project I tried to propose a new perspective for my portfolio design, also I applied some methodologies in order to organize my CSS code.
+==============
+> In this project I propose a new perspective for my portfolio design, also I applied some methodologies in order to organize my CSS code.
+=============
 
 ### About SMACSS
-The first pretty interesting methodology that I used is SMACSS which stands for Scalable and Modular Architecture for CSS is an approach to web development written by, Jonathan Snook. 
+The first pretty interesting methodology that I used is SMACSS which stands for Scalable and Modular Architecture for CSS is an approach to web development written by, Jonathan Snook.To know more, go to : http://smacss.com 
 
 SMACSS subdivides CSS rules to 5 categories:
 
@@ -17,3 +18,5 @@ a Module is a more discrete component of the page. It is your navigation bars an
 A state is something that augments and overrides all other styles.
 - [Theme Rules]:
 Theme Rules aren't as often used within a project, a theme defines colors and images that give your application or site its look and feel.
+
+[live version](https://zinagithub.github.io/new_design/)
